@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<header class="header">
+  <a href="home.html" class="logo">Feel Free To Die</a>
+  <nav class="nav-items">
+    <a href="home.html">Home</a>
+    <a href="introduction.html">Introduction</a>
+    <a href="inspiration.html">Inspiration</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+</header>
+
+
+
+
+<head>
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device=width, initial=scale=1.0">
+    <meta charset="utf=8">
+    <link rel="shortcut icon" href="/assets favicon.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+     
+        body {
+            margin: 0;
+        }
+
+        .container {
+            width: 2545px;
+            height: 1300px;
+
+            font-family: 'Quicksands', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 50px 1fr 1fr 100px;
+
+            gap: 15px;
+
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        
+        .container div {
+            padding: 10px;
+            border: 1px solid #000000;
+
+
+        }
+
+        .headers {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            color: black;
+        }
+        
+        .contentlarge {
+            grid-row-start: 1;
+            grid-row-end: span 1;
+            grid-column-start: 1;
+            grid-column-end: 1;
+
+        }
+        
+        .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(97, 6, 6);
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+       
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(97, 6, 6);
+        
+    }
+
+    .header .logo {
+      font-size: 25px;
+      font-family: 'Nosifer', cursive;
+      color: white;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(97, 6, 6);
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: white;
+      padding: 35px 20px;
+
+    }    
+    .nav-items a:hover{
+      color: black;
+
+    }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headers">Welcome to the Gallery</div>
+        <div class="content-small"><img src="Images/game UI.png"></div>
+        <div class="content-small"><img src= "Images/menu.png"></div>
+        <div class="content-small"><img src= "Images/You died UI.png"></div>
+        <div class="content-small"><img src= "Images/GameEnemy.png" ></div>
+        <div class="content-small"><img src= "Images/Room1.png"></div>
+        <div class="content-small"><img src= "Images/OutsideHouseView.png"></div>
+
+     </div>
+    
+</body>
+
+<footer class="footer">
+    <div class="bottom-links">
+   <div class="links">
+     <span>More Info</span>
+     <a href="home.html">Home</a>
+     <a href="introduction.html">Introduction</a>
+     <a href="inspiration.html">Inspiration</a>
+     <a href="gallery.html">Gallery</a>
+   </div>
+
+   </div>
+ </div>
+</footer>
